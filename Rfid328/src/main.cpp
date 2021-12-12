@@ -123,6 +123,10 @@ void readUID(MFRC522::Uid *uid)
         digitalWrite(redLed, 1);
       }
     }
+    else {
+      Serial.print("<modules><UID>" + boxUID[i] + "</UID></modules>");
+
+    }
   }
 
   Serial.println();
