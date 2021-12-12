@@ -82,9 +82,10 @@ void loop()
 
 void readUID(MFRC522::Uid *uid)
 {
+  static String pastUID;
   String lsdStr = "";
   lcd.clear();
-  lcd.print("Name x:");
+  lcd.print("Name position: ");
   for (byte i = 0; i < uid->size; i++)
   {
     if (uid->uidByte[i] < 0x10)
@@ -99,7 +100,7 @@ void readUID(MFRC522::Uid *uid)
       lsdStr += uid->uidByte[i];
   }
 
-  Serial.print("UID:" + lsdStr);
+  // Serial.print("UID:" + lsdStr);
 
   lcd.setCursor(0, 1);
   // lcd.print(lsdStr);
@@ -109,7 +110,7 @@ void readUID(MFRC522::Uid *uid)
     if (boxUID[i] == lsdStr)
     {
       // Serial.print("\t is " + boxName[i]);
-      Serial.print("<modules><UID>" + boxUID[i] + "</UID><name>" + boxName[i] + "</name></modules>");
+      if( pastUID!=lsdStr) Serial.print("<modules><UID>" + boxUID[i] + "</UID><name>" + boxName[i] + "</name></modules>");
 
       lcd.print("is " + boxName[i]);
       if (i == 2)
@@ -123,13 +124,13 @@ void readUID(MFRC522::Uid *uid)
         digitalWrite(redLed, 1);
       }
     }
-    else {
-      Serial.print("<modules><UID>" + boxUID[i] + "</UID></modules>");
-
+    else
+    {
+       if( pastUID!=lsdStr) Serial.print("<modules><UID>" + lsdStr + "</UID></modules>");
     }
   }
+ pastUID=lsdStr;
 
-  Serial.println();
 }
 
 void ShowReaderDetails()
