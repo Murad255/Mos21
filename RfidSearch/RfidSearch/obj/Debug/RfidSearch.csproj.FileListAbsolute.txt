@@ -1,0 +1,15 @@
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\bin\Debug\RfidSearch.exe.config
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\bin\Debug\RfidSearch.exe
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\bin\Debug\RfidSearch.pdb
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.csproj.AssemblyReference.cache
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\MainWindow.g.cs
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\App.g.cs
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch_MarkupCompile.cache
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch_MarkupCompile.lref
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\MainWindow.baml
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.g.resources
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.Properties.Resources.resources
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.csproj.GenerateResource.cache
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.csproj.CoreCompileInputs.cache
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.exe
+D:\GoogleDisk\Main\HAK_count\Mos21\RfidSearch\RfidSearch\obj\Debug\RfidSearch.pdb
